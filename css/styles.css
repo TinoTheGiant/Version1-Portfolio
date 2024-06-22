@@ -1,0 +1,93 @@
+html{
+    
+    scroll-behavior: smooth;
+}
+
+:root {                                             
+    box-sizing: border-box;                           
+  }   
+  
+
+ 
+ 
+ * { margin: 0; padding: 0; }
+
+ 
+                                                      
+  *,                                                  
+  ::before,                                           
+  ::after {                                           
+    box-sizing: inherit;                              
+  }                                                   
+  
+  body { 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    color: white;                                         
+    background-color:black;                        
+    width: calc(100% - 20px);
+    font-size:xx-large;
+   
+  }  
+
+  h1,h2{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+h3,h4,p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Our socials*/
+.social-icons a {
+    color: inherit; /* Use icon's color */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 10px; /* Space between icons */
+    display: inline-flex; /* Align icons and links properly */
+    align-items: center; /* Center the icon vertically */
+}
+.social-icons a:hover {
+    color: #4A90E2; /* Change color on hover */
+}
+
+
+    
+    @media only screen and (max-width: 768px) {
+        .parallax {
+          /* Override Spectre styles here (e.g., remove parallax effects) */
+          transform: none; /* Disable parallax movement */
+          background-attachment: scroll;
+        }
+
+        body {
+            font-size: medium;
+            
+            height: fit-content;
+        }
+    
+        h1 {
+            font-size: 3em;
+        }
+    
+        .social-icons a {
+            font-size: 10px;
+        }
+
+        a img{Display:none;}
+      }
+    
+ 
